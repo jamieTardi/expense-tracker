@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./scripts/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
 </head>
 <body>
+    <div class="title">
+    <h1>Expense Tracker App</h1>
+</div>
+<div class="expenses-container">
+    <div class="label-container-1">
+    <label for="name" class="input-label" >Name</label>
+    <input type="text" class="input-box box-width" name="type">
+</div>
+<div class="label-container-2">
+    <label for="type" class="input-label">Type</label>
+    <input type="text" class="input-box box-width" name="frequency">
+</div>
+<div class="label-container-3">
+    <label for="frequency" class="input-label">Frequency</label>
+    <input type="text" class="input-box box-width" name="amount">
+</div>
+<div class="label-container-4">
+    <label for="amount" class="input-label">Amount</label>
+    <input type="text" class="input-box box-width" name="name">
+</div>
+    <button class="expense-add">Add Expense</button>
+</div>
     
 </body>
 </html>
