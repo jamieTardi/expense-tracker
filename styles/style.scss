@@ -72,9 +72,25 @@ body{
 .expense-list{
     width: 100%;
     height: 3vh;
-    background: red;
+    background: $background;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
 
+.expense-para {
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+            10px 10px 15px rgba(0,0,0,0.5),
+            -1px -1px 30px rgba(0,0,0,0.2);
+
+}
+
+.expense-para::before{
+    content: '';
 }
