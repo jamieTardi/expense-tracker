@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = expense-tracker
+  url = https://github.com/jamieTardi/expense-tracker.git

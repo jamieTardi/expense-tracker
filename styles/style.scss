@@ -94,3 +94,29 @@ body{
 .expense-para::before{
     content: '';
 }
+
+@media (max-width: 600px){
+    .expenses-container{
+        margin-top: 2rem;
+    }
+    .expense-para{
+        font-size: .8rem;
+        padding: .5rem 1rem;
+    }
+    .input-box{
+        width: 50vw;
+    }
+    .label-container-1,
+.label-container-2,
+.label-container-3,
+.label-container-4{
+    width: 50vw;
+}
+
+}
+
+@media (max-width: 375px){
+    .expense-para{
+        font-size: 0.6rem;
+    }
+}

@@ -12,7 +12,7 @@ expenseBtn.addEventListener('click', () => {
   let newValues2 = inputBox2.value;
   let newValues3 = inputBox3.value;
   let newValues4 = inputBox4.value;
-  let allValues = `📋Name: ${newValues}, 🔥Type: ${newValues2}, ⏱️Frequency: ${newValues3}, 💰Amount: ${newValues4}`
+  let allValues = `📋Name: ${newValues}, 🔥Type: ${newValues2}, ⏱️Frequency: ${newValues3}, 💰Amount: £${newValues4}`
   newExpense = () => {  
     let newDiv = document.createElement('div')
     let newPara = document.createElement('p')
